@@ -5,7 +5,7 @@ import { WelcomModule } from './welcom/welcom.module';
 
 const routes: Routes = [
   {
-    path: 'welcom',
+    path: 'welcome',
     loadChildren: () => import('./welcome/welcome.module').then(m => m.WelcomeModule)
   }
 ];

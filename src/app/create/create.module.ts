@@ -8,6 +8,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatButtonModule} from '@angular/material/button';
 import {MatRadioModule} from '@angular/material/radio';
+import { SwiperModule } from 'ngx-swiper-wrapper';
 
 @NgModule({
   declarations: [CreateComponent],
@@ -19,7 +20,8 @@ import {MatRadioModule} from '@angular/material/radio';
     MatInputModule,
     MatFormFieldModule,
     MatButtonModule,
-    MatRadioModule
+    MatRadioModule,
+    SwiperModule
   ]
 })
 export class CreateModule { }

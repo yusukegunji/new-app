@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "gitpet-fcb63"
+  },
+  "targets": {
+    "gitpet-fcb63": {
+      "hosting": {
+        "school-app": [
+          "gitpet-fcb63"
+        ]
+      }
+    }
   }
 }
